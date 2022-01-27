@@ -1,0 +1,49 @@
+.titulo1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5% 0% 1% 0%;
+  color: rgba(240, 248, 255, 0.692);
+}
+.clubes {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 1% 0 5% 0;
+}
+.clubes li {
+  width: 33%;
+  justify-content: space-around;
+}
+.clubes li img {
+  width: 60%;
+}
+.clubes h2 h3 {
+  padding: 2% 0 2% 0;
+}
+
+.caixaleste {
+  width: 45%;
+  background-color: rgba(7, 7, 80, 0.301);
+  padding: 1%;
+  color: rgba(240, 248, 255, 0.692);
+  border-radius: 5%;
+}
+.caixaleste div {
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+.caixaoeste {
+  width: 45%;
+  background-color: rgba(255, 0, 0, 0.562);
+  padding: 1%;
+  color: rgba(240, 248, 255, 0.692);
+  border-radius: 5%;
+}
+.caixaoeste div {
+  display: flex;
+  margin: 20px 0 20px 0;
+}

@@ -1,0 +1,74 @@
+.padraoequipes {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: auto;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.cabecalho {
+  text-decoration: none;
+  background: #6d84bd;
+  color: antiquewhite;
+  padding: 1% 0% 1% 0%;
+  text-align: center; 
+}
+.cabecalho h1{
+  text-decoration: none;
+  margin: 1px;  
+}
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+}
+.conteudoequipes{
+  display: flex;
+  flex-flow: column wrap;
+  flex: wrap;
+  width: 62%;
+  align-items: center;
+  text-align: center;
+  padding-top: 2%;
+  margin: 8% 0% 8% 0% ;
+  
+  background-color: rgba(255, 248, 220, 0.144);
+  border: solid;
+  border-radius: 12px;
+  border-style: hidden;
+
+}
+
+
+.conteudoequipes h1 p{
+  display: flex;
+  text-align: center;
+  border: solid;
+  border-color: rgb(42, 151, 165);
+  }
+.sobreequipes{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+font-size: 20px;
+padding:  0 8% 0% 8%;
+}
+.idolosequipes {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding:5% 5% 10% 5% ;
+  font-size: 18px;
+
+}
+
+.cxinformativa {
+  display: flex;
+  margin: 0 2% 10% 2%;
+  padding:10% 2% 10% 2% ;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: rgba(255, 248, 220, 0.281);
+  }
+
