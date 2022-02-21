@@ -4,8 +4,9 @@ A equipe começou a jogar como uma equipe de expansão em 1970, junto com os Por
 
 O Cavaliers abriu sua temporada inaugural perdendo seus primeiros 15 jogos e lutou nos primeiros anos, ficando em sexto lugar na sexta posição na Conferência Leste durante as primeiras cinco temporadas. A equipe conquistou seu primeiro título da Divisão Central em 1976, que também marcou a primeira temporada vencedora e a participação nos playoffs na história da franquia, onde avançou para as finais da Conferência Leste.
 
-    Fundação: 1970
-    Estádio: Rocket Mortgage FieldHouse – 19.432
-    Localização: Cleveland – Ohio
-    País: Estados Unidos
+    Fundação: 1970<br />
+    Estádio: Rocket Mortgage FieldHouse – 19.432<br />
+    Localização: Cleveland – Ohio<br />
+    País: Estados Unidos<br />
+    
     Site Oficial: www.nba.com/cavaliers/

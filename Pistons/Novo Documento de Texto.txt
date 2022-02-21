@@ -2,8 +2,8 @@ Detroit Pistons é um time americano de basquete profissional com sede em Detroi
 
 A equipe foi fundada em Fort Wayne, Indiana, como o Fort Wayne (Zollner) Pistons em 1941, membro da Liga Nacional de Basquete (NBL), onde venceu dois campeonatos da NBL: em 1944 e 1945.
 
-    Fundação: 1957
-    Estádio: Little Caesars Arena – 20.332
-    Localização: Detroit – Michigan
-    País: Estados Unidos
+    Fundação: 1957<br />
+    Estádio: Little Caesars Arena – 20.332<br />
+    Localização: Detroit – Michigan<br />
+    País: Estados Unidos<br />
     Site Oficial: www.nba.com/pistons/

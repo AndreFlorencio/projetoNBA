@@ -1,9 +1,10 @@
 .padrao {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 198, 14);
 }
 .cabecalho {
   text-decoration: none;
-  background: #479ef0b6;
+  background: #6d84bd;
   color: antiquewhite;
   padding: 1% 0% 1% 0%;
   text-align: center;
@@ -17,10 +18,7 @@
 .conteudo {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  background-image: radial-gradient(
-    rgba(0, 85, 165, 0.904) 50%,
-    rgb(2, 6, 70)
-  );
+  background-image: radial-gradient(rgba(0, 85, 165, 0.904) 50%, rgb(2, 6, 70));
 }
 .logonba {
   text-align: center;
@@ -38,17 +36,11 @@
   padding: 2% 20% 1% 20%;
   color: rgba(240, 248, 255, 0.692);
 }
-
-
-
-
-
 .video {
   /*Vídeo ilustrativo */
   text-decoration: none;
   border-top: solid;
   border-bottom: solid;
-  
   color: antiquewhite;
   padding: 1% 2% 2% 2%;
   text-align: center;
@@ -67,10 +59,10 @@
   color: antiquewhite;
   font-size: 30px;
   text-align: center;
-  
+  box-sizing: border-box;
 }
 .rodape img {
-  height: 300px;
+  height: 16rem;
 }
 
 .copyright {
@@ -78,36 +70,60 @@
 }
 
 /* Área responsiva da Homepage */
-
 @media screen and (max-width: 480px) {
-  body {
-    /* Imagem de fundo */
-    background-size: 100%;
-  }
-  .menubar {
-    /* Menu inicial */
+  .cabecalho {
     text-decoration: none;
-    display: block;
-    width: 95%;
-    top: 8%;
-    left: 2%;
-    right: 2%;
+    background: #0b5fadb6;
+    color: antiquewhite;
+    padding: 1% 0% 1% 0%;
     text-align: center;
   }
-  .menubar h1 {
-    font-size: 22px;
-    margin: 10px 10px 66px 15px;
+
+  .cabecalho img {
+    width: 20%;
   }
-  .menubar nav a {
-    font: size 20px;
+  .cabecalho h1 {
+    font-size: 1.3em;
+    text-align: center;
   }
-  .principal {
-    /*Texto principal da Homepage*/
-    margin: 230px 0 0 0;
-    font-size: 15px;
+  .cabecalho a {
+    width: 20%;
+    text-decoration: none;
+    color: antiquewhite;
+    padding-left: 5px;
+  }
+
+  /*Texto principal da Homepage*/
+  .padraoequipes {
+    height: 100%;
   }
   .titulo-principal {
     font-size: 20px;
+  }
+  .principal {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 2% 10% 1% 10%;
+    color: rgba(240, 248, 255, 0.692);
+  }
+  nav .clubes {
+    display: flex;
+  }
+  .clubes {
+    flex-flow: column;
+    text-align: center;
+    padding: 1% 0 5% 0;
+  }
+  .clubes li {
+    width: 33%;
+    justify-content: space-around;
+  }
+  .clubes li img {
+    width: 60%;
+  }
+  .clubes h2 h3 {
+    padding: 2% 0 2% 0;
   }
   .video {
     /*Vídeo ilustrativo */
@@ -117,10 +133,6 @@
 
   footer {
     /* Rodapé */
-    margin-top: 40px;
-    padding: 0%;
-  }
-  footer img {
-    width: 25%;
+    margin-top: 80px;
   }
 }
